@@ -1,5 +1,6 @@
 # 執行
 python TalkToText.py
+
 備註：不需要特別執行WhisperModelLoad.py，程式也會自動下載whisper model至whisper/asset
 
 # pip
