@@ -5,6 +5,7 @@ python TalkToText.py
 
 # pip
 python -m pip install --upgrade pip
+
 pip install whisper inaSpeechSegmenter moviepy==1.0.3 python-docx tkinter
 
 # 中文語音轉文字模型
@@ -32,15 +33,20 @@ inaSpeechSegmenter 是一個用於 音訊分割 (speech segmentation) 和 語音
 3. 性別分類
 針對語音部分，能識別出該說話者的性別（男性或女性）。
 
+
 備註：解說內容主要由GPT4o生成
+
 ---
 # Execution
 Run the following command:
+
 python TalkToText.py
+
 Note: There is no need to manually run `WhisperModelLoad.py`, as the program will automatically download the Whisper model to `whisper/asset`.
 
 # pip Installation
 python -m pip install --upgrade pip
+
 pip install whisper inaSpeechSegmenter moviepy==1.0.3 python-docx tkinter
 
 # Chinese Speech-to-Text Model
